@@ -1,0 +1,10 @@
+package com;
+
+public class Fish extends Animal {
+		public Fish() {
+			System.out.println("I am a fish!");
+		}
+		public void move(){
+			System.out.println("I can swim!");
+		}
+}
